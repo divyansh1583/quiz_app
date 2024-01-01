@@ -28,6 +28,7 @@ class _StartQuizState extends State<StartQuiz> {
   }
 
   void restartQuiz() {
+    selectedAnswers = [];
     setState(() {
       currentScreen = 'home_screen';
     });
